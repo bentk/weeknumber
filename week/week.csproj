@@ -58,16 +58,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="TileSquareBlock.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="TileSquareBlock.aspx.cs">
+      <DependentUpon>TileSquareBlock.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="TileSquareBlock.aspx.designer.cs">
+      <DependentUpon>TileSquareBlock.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
