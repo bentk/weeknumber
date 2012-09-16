@@ -12,7 +12,8 @@ namespace week
             
             Response.Write(string.Format(@"<tile><visual><binding template='TileSquareBlock'><text id='1'>{0}</text><text id='2'>{1}</text></binding></visual></tile>",
                             a.Calendar.GetWeekOfYear(DateTime.Today, a.DateTimeFormat.CalendarWeekRule, a.DateTimeFormat.FirstDayOfWeek),
-                            DateTime.Today.ToShortDateString()));
+                            DateTime.Today.ToString(a.DateTimeFormat)));
+            
         }
     }
 }
