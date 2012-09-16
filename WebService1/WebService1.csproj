@@ -38,33 +38,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AppHarbor.Sdk">
-      <HintPath>..\packages\AppHarbor.NET.2.2.0\lib\net35\AppHarbor.Sdk.dll</HintPath>
-    </Reference>
-    <Reference Include="GithubSharp.Core">
-      <HintPath>..\packages\GithubSharp.Core.0.0.5.1\lib\GithubSharp.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="GithubSharp.Plugins.CacheProviders.ApplicationCacher">
-      <HintPath>..\packages\GithubSharp.Plugins.All.0.0.5.1\lib\GithubSharp.Plugins.CacheProviders.ApplicationCacher.dll</HintPath>
-    </Reference>
-    <Reference Include="GithubSharp.Plugins.CacheProviders.WebCache">
-      <HintPath>..\packages\GithubSharp.Plugins.All.0.0.5.1\lib\GithubSharp.Plugins.CacheProviders.WebCache.dll</HintPath>
-    </Reference>
-    <Reference Include="GithubSharp.Plugins.LogProviders.SimpleLogProvider">
-      <HintPath>..\packages\GithubSharp.Plugins.All.0.0.5.1\lib\GithubSharp.Plugins.LogProviders.SimpleLogProvider.dll</HintPath>
-    </Reference>
-    <Reference Include="GitSharp">
-      <HintPath>..\packages\GitSharp.0.3\lib\GitSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="GitSharp.Core">
-      <HintPath>..\packages\GitSharp.0.3\lib\GitSharp.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="RestSharp">
-      <HintPath>..\packages\RestSharp.103.4\lib\net35\RestSharp.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -77,12 +50,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="Tamir.SharpSSH">
-      <HintPath>..\packages\Tamir.SharpSSH.1.1.1.13\lib\Tamir.SharpSSH.dll</HintPath>
-    </Reference>
-    <Reference Include="Winterdom.IO.FileMap">
-      <HintPath>..\packages\Winterdom.IO.FileMap.2.0.2.0\lib\Winterdom.IO.FileMap.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.html" />
@@ -108,9 +75,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
