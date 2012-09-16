@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    asdf
+    <label runat="server" id="lbl"></label>
     </div>
     </form>
 </body>
