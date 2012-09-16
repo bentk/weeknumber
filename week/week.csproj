@@ -57,10 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TileWideBlockAndText02.aspx" />
     <Content Include="Web.config" />
     <Content Include="TileSquareBlock.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TileWideBlockAndText02.aspx.cs">
+      <DependentUpon>TileWideBlockAndText02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TileWideBlockAndText02.aspx.designer.cs">
+      <DependentUpon>TileWideBlockAndText02.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TileSquareBlock.aspx.cs">
       <DependentUpon>TileSquareBlock.aspx</DependentUpon>
