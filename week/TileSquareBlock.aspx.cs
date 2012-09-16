@@ -7,12 +7,12 @@ namespace week
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var culture = Request.Params["culture"] ?? "en-GB";
+            var culture = Request.Params["culture"] ?? "en-US";
             var a = new CultureInfo(culture);
             
             Response.Write(string.Format(@"<tile><visual><binding template='TileSquareBlock'><text id='1'>{0}</text><text id='2'>{1}</text></binding></visual></tile>",
                             a.Calendar.GetWeekOfYear(DateTime.Today, a.DateTimeFormat.CalendarWeekRule, a.DateTimeFormat.FirstDayOfWeek),
-                            culture + DateTime.Now.ToString(a.DateTimeFormat)));
+                            DateTime.Today.Day + ". " + a.DateTimeFormat.GetAbbreviatedMonthName(DateTime.Today.Month)));
             
         }
     }
