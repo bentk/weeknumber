@@ -10,6 +10,6 @@
 namespace week {
     
     
-    public partial class TileSquareBlock {
+    public partial class TileWideBlockAndText02 {
     }
 }
