@@ -1,5 +1,0 @@
-C:\Users\ladmin\Documents\GitHub\weeknumber\week\bin\week.dll
-C:\Users\ladmin\Documents\GitHub\weeknumber\week\bin\week.pdb
-C:\Users\ladmin\Documents\GitHub\weeknumber\week\obj\Debug\week.csprojResolveAssemblyReference.cache
-C:\Users\ladmin\Documents\GitHub\weeknumber\week\obj\Debug\week.dll
-C:\Users\ladmin\Documents\GitHub\weeknumber\week\obj\Debug\week.pdb
