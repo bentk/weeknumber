@@ -88,6 +88,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TileXmlHelper\TileXmlHelper.csproj">
+      <Project>{10964689-4C13-4CD8-9E08-F1B7B130F4A0}</Project>
+      <Name>TileXmlHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
