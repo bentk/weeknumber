@@ -21,7 +21,9 @@ namespace TileXmlHelper
                 <binding template='TileSquareBlock'><text id='1'>{1}</text><text id='2'>{2}</text></binding></visual></tile>",
                 "",       
                 ci.Calendar.GetWeekOfYear(DateTime.Today, ci.DateTimeFormat.CalendarWeekRule, ci.DateTimeFormat.FirstDayOfWeek),
-                            DateTime.Today.Day + ". " + ci.DateTimeFormat.GetMonthName(DateTime.Today.Month));
+                            DateTime.Today.ToString(ci.DateTimeFormat.MonthDayPattern));
+
+                //ci.DateTimeFormat.MonthDayPattern 
         }
     }
 }
