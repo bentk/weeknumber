@@ -57,11 +57,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Privacy.aspx" />
     <Content Include="TileWideBlockAndText02.aspx" />
     <Content Include="Web.config" />
     <Content Include="TileSquareBlock.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Privacy.aspx.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privacy.aspx.designer.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TileWideBlockAndText02.aspx.cs">
       <DependentUpon>TileWideBlockAndText02.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

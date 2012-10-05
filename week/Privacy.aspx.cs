@@ -7,7 +7,7 @@ namespace week
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var culture = Request.Params["culture"] ?? "en-US";
+            var culture = Request.Params["culture"] ?? Request.Params["language"] ?? Request.Params["lang"] ?? "en-US";
             var a = new CultureInfo(culture);
 
             var text = "This application does not share or store any statistics about you or your usage.";

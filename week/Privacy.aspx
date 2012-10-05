@@ -1,2 +1,2 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TileSquareBlock.aspx.cs" Inherits="week.TileSquareBlock" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Privacy.aspx.cs" Inherits="week.Privacy" %>
 
